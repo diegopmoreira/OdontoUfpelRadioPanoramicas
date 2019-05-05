@@ -38,7 +38,6 @@ function scripts() {
   return gulp
     .src(['lib/js/*.js'])
     .pipe(plumber())
-    .pipe(babel({ presets: ['@babel/env'] }))
     .pipe(minify())
     .pipe(gulp.dest('dist/assets/js'))
     .pipe(browsersync.stream());
