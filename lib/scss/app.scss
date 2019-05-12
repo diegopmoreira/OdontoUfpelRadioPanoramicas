@@ -36,7 +36,9 @@ $gray: #a4a4a4;
     transform: rotate(45deg);
   }
 }
-
+button {
+  outline: none;
+}
 html {
   scroll-behavior: smooth;
   body {
@@ -296,6 +298,7 @@ html {
           color: $primary;
           display: inline-flex;
           margin: 20px;
+          max-width: 70%;
         }
         .description {
           color: $gray;
