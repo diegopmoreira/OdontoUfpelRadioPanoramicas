@@ -111,7 +111,7 @@ html {
         left: 0;
         margin: 0;
         overflow: auto;
-        .title {
+        .titleList {
           font-weight: bold;
           font-size: 1.25em;
           color: $white;
@@ -193,7 +193,8 @@ html {
             background: $white;
             margin: 0;
           }
-          .print-areas {
+          .print-areas,
+          .remove-areas {
             border: none;
             background: none;
             color: yellow;
