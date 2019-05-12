@@ -32,7 +32,7 @@ async function renderList(arr) {
 
 $(document).ready(async () => {
   const dataRadio = await getJson();
-  let actualRadio = dataRadio[1];
+  let actualRadio = dataRadio[0];
   // initializing the first area on home
   await renderItem(actualRadio);
   await renderList(dataRadio);
@@ -41,11 +41,16 @@ $(document).ready(async () => {
   $('.next').click(async () => {
     actualRadio = dataRadio[actualRadio.number % dataRadio.length];
     await renderItem(actualRadio);
+    $('.remove-areas').hide();
+    $('.print-areas').show();
   });
   // previous button action
   $('.previous').click(async () => {
-    actualRadio = dataRadio[(actualRadio.number + 1) % dataRadio.length];
+    console.log((actualRadio.number + 1) % dataRadio.length);
+    actualRadio = dataRadio[actualRadio.number % dataRadio.length];
     await renderItem(actualRadio);
+    $('.remove-areas').hide();
+    $('.print-areas').show();
   });
 
   // opening modal

@@ -1,8 +1,8 @@
 [
   {
     "number": "01",
-    "name": "Seio MaxilarNew",
-    "description": "NewDuas amplas áreas radiolúcidas bilaterais, de contornos arredondados e bem definidos por uma linha radiopaca, situadas no terço médio da face.",
+    "name": "Seio Maxilar",
+    "description": "Duas amplas áreas radiolúcidas bilaterais, de contornos arredondados e bem definidos por uma linha radiopaca, situadas no terço médio da face.",
     "baseImage": "./assets/img/base-1.jpg",
     "printImage": "./assets/img/base-1.jpg"
   },
@@ -11,13 +11,62 @@
     "name": "Meato acústico externo",
     "description": "Área radiolúcida de formato ovóide ou arredondado posterior à ATM",
     "baseImage": "./assets/img/base-1.jpg",
-    "printImage": "./assets/img/print-2.jpg"
+    "printImage": "./assets/img/meato.jpg"
   },
   {
     "number": "03",
     "name": "Tubérculo articular",
     "description": "Estrutura radiopaca, bem delimitada, arredondada, localizada anteriormente à fossa mandibular e posteriormente ao arco zigomático.",
     "baseImage": "./assets/img/base-1.jpg",
-    "printImage": "./assets/img/print-3.jpg"
+    "printImage": "./assets/img/tuberculo.jpg"
+  },
+  {
+    "number": "04",
+    "name": "Arco zigomático",
+    "description": "Estrutura radiopaca afilada que se estende do osso zigomático até o tubérculo articular.",
+    "baseImage": "./assets/img/base-1.jpg",
+    "printImage": "./assets/img/arco.jpg"
+  },
+  {
+    "number": "05",
+    "name": "Espinha nasal anterior",
+    "description": "Linha radiopaca em foma de “V” na linha média da maxila.",
+    "baseImage": "./assets/img/base-1.jpg",
+    "printImage": "./assets/img/espinhanasal.jpg"
+  },
+  {
+    "number": "06",
+    "name": "Fossas nasais",
+    "description": " Áreas radiolúcidas, relativamente simétricas, limitadas por contornos radiopacos e divididas no centro pelo septo nasal. Localizadas na porção central da radiografia.",
+    "baseImage": "./assets/img/base-1.jpg",
+    "printImage": "./assets/img/fossasnasais.jpg"
+  },
+  {
+    "number": "07",
+    "name": "Osso Hióide",
+    "description": "Imagens radiopacas bilaterais situadas abaixo da base da mandíbula.",
+    "baseImage": "./assets/img/base-1.jpg",
+    "printImage": "./assets/img/hioide.jpg"
+  },
+  {
+    "number": "08",
+    "name": "Meato acústico externo",
+    "description": "Área radiolúcida de formato ovóide ou arredondado posterior à ATM.",
+    "baseImage": "./assets/img/base-1.jpg",
+    "printImage": "./assets/img/meato.jpg"
+  },
+  {
+    "number": "09",
+    "name": "Fossa ptérigopalatina",
+    "description": "Estrutura radiolúcida em formato de gota invertida localizada distalmente ao contorno posterior do seio maxilar.",
+    "baseImage": "./assets/img/base-1.jpg",
+    "printImage": "./assets/img/pterigo.jpg"
+  },
+  {
+    "number": "10",
+    "name": "Septo Nasal",
+    "description": "Faixa radiopaca vertical que divide as fossas nasais.",
+    "baseImage": "./assets/img/base-1.jpg",
+    "printImage": "./assets/img/septo.jpg"
   }
 ]
