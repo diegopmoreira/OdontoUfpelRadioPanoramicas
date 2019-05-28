@@ -11,7 +11,7 @@ $gray: #a4a4a4;
 #stroke {
   content: "";
   display: inline-block;
-  width: 40px;
+  width: 30px;
   height: 3px;
   background: $primary;
   margin: 8px auto;
@@ -38,6 +38,9 @@ $gray: #a4a4a4;
 }
 button {
   outline: none;
+  &:hover {
+    cursor: pointer;
+  }
 }
 html {
   scroll-behavior: smooth;
@@ -180,16 +183,22 @@ html {
           display: flex;
           justify-content: space-around;
           align-items: center;
-          flex-wrap: wrap;
           @media (min-width: 800px) {
             justify-content: space-between;
           }
+          @media (max-width: 400px) {
+            flex-wrap: wrap;
+          }
           .title {
             font-weight: bold;
-            font-size: 1.5em;
+            font-size: 1.25em;
             color: $white;
             display: inline-flex;
             margin: 20px;
+            @media (min-width: 800px) {
+              margin: 0;
+              margin-left: 40px;
+            }
           }
           #stroke {
             background: $white;
@@ -216,7 +225,7 @@ html {
               color: $white;
               margin: 0;
               i {
-                font-size: 1.5em;
+                font-size: 1.25em;
                 color: $white;
               }
               .prev-icon,
@@ -224,7 +233,7 @@ html {
                 @media (min-width: 800px) {
                   transform: none;
                   order: 0;
-                  margin: 20px;
+                  margin: 10px;
                 }
               }
             }
@@ -344,7 +353,7 @@ html {
           }
           .prev-text,
           .next-text {
-            font-size: 1em;
+            font-size: 0.8em;
             margin: 10px;
             letter-spacing: 0.15em;
           }

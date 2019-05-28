@@ -12,6 +12,8 @@ async function renderItem({
   number, name, description, baseImage, printImage,
 }) {
   try {
+    $('.title').text(name);
+    //   $('.number-text').text(number);
     $('.number-text').text(name);
     $('.container-image img').attr('src', baseImage);
     $('.description').text(description);
