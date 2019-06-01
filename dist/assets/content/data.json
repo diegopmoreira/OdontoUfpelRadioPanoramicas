@@ -3,8 +3,8 @@
     "number": "01",
     "name": "Seio Maxilar",
     "description": "Duas amplas áreas radiolúcidas bilaterais, de contornos arredondados e bem definidos por uma linha radiopaca, situadas no terço médio da face.",
-    "baseImage": "./assets/img/base-1.jpg",
-    "printImage": "./assets/img/base-1.jpg"
+    "baseImage": "./assets/img/base-6.jpg",
+    "printImage": "./assets/img/seiomaxilar.jpg"
   },
   {
     "number": "02",
@@ -17,7 +17,7 @@
     "number": "03",
     "name": "Tubérculo articular",
     "description": "Estrutura radiopaca, bem delimitada, arredondada, localizada anteriormente à fossa mandibular e posteriormente ao arco zigomático.",
-    "baseImage": "./assets/img/base-1.jpg",
+    "baseImage": "./assets/img/base-4.jpg",
     "printImage": "./assets/img/tuberculo.jpg"
   },
   {
@@ -68,5 +68,75 @@
     "description": "Faixa radiopaca vertical que divide as fossas nasais.",
     "baseImage": "./assets/img/base-1.jpg",
     "printImage": "./assets/img/septo.jpg"
+  },
+  {
+    "number": "11",
+    "name": "Conchas nasais inferiores",
+    "description": "Estruturas radiopacas convexas e bilaterais localizadas no interior das fossas nasais.",
+    "baseImage": "./assets/img/base-3.jpg",
+    "printImage": "./assets/img/conchasnasaisinferiores.jpg"
+  },
+  {
+    "number": "12",
+    "name": "Palato duro",
+    "description": "Linha radiopaca horizontal localizada acima dos ápices dos dentes superiores.",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/palatoduro.jpg"
+  },
+  {
+    "number": "13",
+    "name": "Palato mole",
+    "description": "Área discretamente radiopaca, alongada, posterior ao palato duro e localizada entre as imagens da orofaringe e nasofaringe (espaço aéreo) em ambos os lados.",
+    "baseImage": "./assets/img/base-6.jpg",
+    "printImage": "./assets/img/palatomole.jpg"
+  },
+  {
+    "number": "14",
+    "name": "Processo estilóide",
+    "description": "Estrutura radiopaca e pontiaguda que se estende ao lado do ramo ascendente.",
+    "baseImage": "./assets/img/base-5.jpg",
+    "printImage": "./assets/img/processoestiloide.jpg"
+  },
+  {
+    "number": "15",
+    "name": "Cabeça da mandibula",
+    "description": "Estrutura radiopaca de contornos regulares e forma arredondada, localizada no limite superior e distal do ramo ascendente.",
+    "baseImage": "./assets/img/base-4.jpg",
+    "printImage": "./assets/img/cabeçamandibula.jpg"
+  },
+  {
+    "number": "16",
+    "name": "Incisura da mandibula",
+    "description": "Concavidade no ramo ascendente da mandíbula, entre a cabeça da mandíbula e o processo coronóide.",
+    "baseImage": "./assets/img/base-4.jpg",
+    "printImage": "./assets/img/incisuramandibular.jpg"
+  },
+  {
+    "number": "17",
+    "name": "Processo coronóide",
+    "description": "Concavidade no ramo ascendente da mandíbula, entre a cabeça da mandíbula e o processo coronóide.",
+    "baseImage": "./assets/img/base-7.jpg",
+    "printImage": "./assets/img/coronoide.jpg"
+  },
+  {
+    "number": "18",
+    "name": "Canal da mandíbula",
+    "description": "Faixa radiolúcida delimitada por duas linhas radiopacas, uma superior e outra inferior, que se estende do forame mandibular ao forame mentual.",
+    "baseImage": "./assets/img/base-4.jpg",
+    "printImage": "./assets/img/canalmandibula.jpg"
+  },
+  {
+    "number": "19",
+    "name": "Forame mentual",
+    "description": "Estrutura radiolúcida arredondada ou oval, localizada na região dos ápices dos pré-molares inferiores.",
+    "baseImage": "./assets/img/base-5.jpg",
+    "printImage": "./assets/img/forame.jpg"
+  },
+  {
+    "number": "20",
+    "name": "Base da mandibula",
+    "description": "Faixa radiopaca que limita a mandíbula inferiormente.",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/basemandibula.jpg"
   }
 ]

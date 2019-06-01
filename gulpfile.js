@@ -39,6 +39,11 @@ function scripts() {
     .src(['lib/js/*.js'])
     .pipe(plumber())
     .pipe(minify())
+    .pipe(
+      babel({
+        plugins: ['@babel/transform-runtime'],
+      }),
+    )
     .pipe(gulp.dest('dist/assets/js'))
     .pipe(browsersync.stream());
 }
