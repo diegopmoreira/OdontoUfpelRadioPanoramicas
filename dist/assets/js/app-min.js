@@ -11,11 +11,11 @@ async function renderItem({
   number: e,
   name: a,
   description: n,
-  baseImage: r,
-  printImage: t
+  baseImage: t,
+  printImage: r
 }) {
   try {
-    $(".title").text(a), $(".number-text").text(a), $(".container-image img").attr("src", r), $(".description").text(n), $("#fullscreen").css("backgroundImage", `url(${r})`);
+    $(".title").text(a), $(".number-text").text(a), $(".container-image img").attr("src", t), $(".description").text(n), $("#fullscreen").css("backgroundImage", `url(${t})`);
   } catch (e) {
     console.log("Error!", e);
   }
@@ -40,15 +40,15 @@ $(document).ready(async () => {
   }), $("header .ham_menu").click(() => {
     $(".modal").toggle(), $(".ham_menu").toggleClass("active");
   }), $("#fullscreen .ham_menu").click(() => {
-    $("#fullscreen").fadeOut();
+    $("#fullscreen").fadeOut(), $("body").css("position", "static");
   }), $(".container-image").click(() => {
-    $("#fullscreen").fadeIn();
+    $("#fullscreen").fadeIn(), $("body").css("position", "fixed");
   }), $(".print-areas").click(() => {
     $("#fullscreen").css("background-image", `url(${a.printImage})`), $(".print-areas").hide(), $(".remove-areas").show();
   }), $(".remove-areas").click(() => {
     $("#fullscreen").css("background-image", `url(${a.baseImage})`), $(".remove-areas").hide(), $(".print-areas").show();
   }), $(".modal-list").on("click", "a", async n => {
-    let r = $(n.currentTarget).children().text().split(" - ");
-    r = r[0] - 1, a = e[r], await renderItem(a), $(".modal").toggle(), $(".ham_menu").toggleClass("active");
+    let t = $(n.currentTarget).children().text().split(" - ");
+    t = t[0] - 1, a = e[t], await renderItem(a), $(".modal").toggle(), $(".ham_menu").toggleClass("active");
   });
 });

@@ -66,10 +66,12 @@ $(document).ready(async () => {
 
   $('#fullscreen .ham_menu').click(() => {
     $('#fullscreen').fadeOut();
+    $('body').css('position', 'static');
   }); // showing fullscreen
 
   $('.container-image').click(() => {
     $('#fullscreen').fadeIn();
+    $('body').css('position', 'fixed');
   }); // print image
 
   $('.print-areas').click(() => {
