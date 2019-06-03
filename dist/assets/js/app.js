@@ -92,5 +92,47 @@ $(document).ready(async () => {
     await renderItem(actualRadio);
     $('.modal').toggle();
     $('.ham_menu').toggleClass('active');
-  });
+  }); // voice recognition
+
+  window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition || null; // caso não suporte esta API DE VOZ
+
+  if (window.SpeechRecognition === null) {
+    $('.voice-recognition').hide();
+  } else {
+    const recognizer = new window.SpeechRecognition();
+    let radio_Struc;
+    recognizer.continuous = false;
+
+    recognizer.onresult = async event => {
+      for (let i = event.resultIndex; i < event.results.length; i++) {
+        radio_Struc = '';
+
+        if (event.results[i].isFinal) {
+          radio_Struc = event.results[i][0].transcript;
+          dataRadio.forEach(spokeRadio => {
+            const upper_name = spokeRadio.name.toUpperCase();
+
+            if (upper_name.includes(radio_Struc.toUpperCase())) {
+              console.log(spokeRadio.name + radio_Struc);
+              actualRadio = spokeRadio;
+            }
+          });
+        } else {
+          radio_Struc += event.results[i][0].transcript;
+        }
+      }
+
+      await renderItem(actualRadio);
+      $('.voice-recognition i').css('color', '#ebcbad');
+    };
+
+    $('.voice-recognition i').click(() => {
+      try {
+        recognizer.start();
+        $('.voice-recognition i').css('color', '#a4a4a4');
+      } catch (ex) {
+        alert(`error: ${ex.message}`);
+      }
+    });
+  }
 });

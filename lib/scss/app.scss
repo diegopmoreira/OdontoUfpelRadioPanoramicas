@@ -70,7 +70,20 @@ html {
         flex-direction: column;
         justify-content: center;
       }
-
+      .voice-recognition {
+        position: relative;
+        display: flex;
+        outline: none;
+        border: none;
+        background: none;
+        i {
+          font-size: 2em;
+          color: $secondary;
+        }
+        @media (min-width: 800px) {
+          margin-top: 20px;
+        }
+      }
       .ham_menu {
         z-index: 102;
         display: block;

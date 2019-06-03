@@ -9,13 +9,13 @@ async function getJson() {
 
 async function renderItem({
   number: e,
-  name: a,
-  description: n,
-  baseImage: t,
+  name: n,
+  description: t,
+  baseImage: a,
   printImage: r
 }) {
   try {
-    $(".title").text(a), $(".number-text").text(a), $(".container-image img").attr("src", t), $(".description").text(n), $("#fullscreen").css("backgroundImage", `url(${t})`);
+    $(".title").text(n), $(".number-text").text(n), $(".container-image img").attr("src", a), $(".description").text(t), $("#fullscreen").css("backgroundImage", `url(${a})`);
   } catch (e) {
     console.log("Error!", e);
   }
@@ -24,19 +24,19 @@ async function renderItem({
 async function renderList(e) {
   e.map(({
     number: e,
-    name: a
+    name: n
   }) => {
-    $(".modal-list").append(`<li class="radio-item">\n    <a href="#"> <span class="number-radio">${e} - </span>${a}</a>\n  </li>`);
+    $(".modal-list").append(`<li class="radio-item">\n    <a href="#"> <span class="number-radio">${e} - </span>${n}</a>\n  </li>`);
   });
 }
 
 $(document).ready(async () => {
   const e = await getJson();
-  let a = e[0];
-  await renderItem(a), await renderList(e), $(".next").click(async () => {
-    a = e[a.number % e.length], await renderItem(a), $(".remove-areas").hide(), $(".print-areas").show();
+  let n = e[0];
+  if (await renderItem(n), await renderList(e), $(".next").click(async () => {
+    n = e[n.number % e.length], await renderItem(n), $(".remove-areas").hide(), $(".print-areas").show();
   }), $(".previous").click(async () => {
-    a = a.number - 2 < 0 ? e[(e.length - 1) % e.length] : e[(a.number - 2) % e.length], await renderItem(a), $(".remove-areas").hide(), $(".print-areas").show();
+    n = n.number - 2 < 0 ? e[(e.length - 1) % e.length] : e[(n.number - 2) % e.length], await renderItem(n), $(".remove-areas").hide(), $(".print-areas").show();
   }), $("header .ham_menu").click(() => {
     $(".modal").toggle(), $(".ham_menu").toggleClass("active");
   }), $("#fullscreen .ham_menu").click(() => {
@@ -44,11 +44,27 @@ $(document).ready(async () => {
   }), $(".container-image").click(() => {
     $("#fullscreen").fadeIn(), $("body").css("position", "fixed");
   }), $(".print-areas").click(() => {
-    $("#fullscreen").css("background-image", `url(${a.printImage})`), $(".print-areas").hide(), $(".remove-areas").show();
+    $("#fullscreen").css("background-image", `url(${n.printImage})`), $(".print-areas").hide(), $(".remove-areas").show();
   }), $(".remove-areas").click(() => {
-    $("#fullscreen").css("background-image", `url(${a.baseImage})`), $(".remove-areas").hide(), $(".print-areas").show();
-  }), $(".modal-list").on("click", "a", async n => {
-    let t = $(n.currentTarget).children().text().split(" - ");
-    t = t[0] - 1, a = e[t], await renderItem(a), $(".modal").toggle(), $(".ham_menu").toggleClass("active");
-  });
+    $("#fullscreen").css("background-image", `url(${n.baseImage})`), $(".remove-areas").hide(), $(".print-areas").show();
+  }), $(".modal-list").on("click", "a", async t => {
+    let a = $(t.currentTarget).children().text().split(" - ");
+    a = a[0] - 1, n = e[a], await renderItem(n), $(".modal").toggle(), $(".ham_menu").toggleClass("active");
+  }), window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition || null, null === window.SpeechRecognition) $(".voice-recognition").hide();else {
+    const t = new window.SpeechRecognition();
+    let a;
+    t.continuous = !1, t.onresult = async t => {
+      for (let r = t.resultIndex; r < t.results.length; r++) a = "", t.results[r].isFinal ? (a = t.results[r][0].transcript, e.forEach(e => {
+        e.name.toUpperCase().includes(a.toUpperCase()) && (console.log(e.name + a), n = e);
+      })) : a += t.results[r][0].transcript;
+
+      await renderItem(n), $(".voice-recognition i").css("color", "#ebcbad");
+    }, $(".voice-recognition i").click(() => {
+      try {
+        t.start(), $(".voice-recognition i").css("color", "#a4a4a4");
+      } catch (e) {
+        alert(`error: ${e.message}`);
+      }
+    });
+  }
 });

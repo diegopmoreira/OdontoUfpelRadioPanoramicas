@@ -8,15 +8,15 @@
   },
   {
     "number": "02",
-    "name": "Meato acústico externo",
-    "description": "Área radiolúcida de formato ovóide ou arredondado posterior à ATM",
+    "name": "Processo zigomático da maxila",
+    "description": "Densa faixa radiopaca em forma de anzol projetada no seio maxilar acima dos ápices dos molares superiores.",
     "baseImage": "./assets/img/base-1.jpg",
     "printImage": "./assets/img/meato.jpg"
   },
   {
     "number": "03",
-    "name": "Tubérculo articular",
-    "description": "Estrutura radiopaca, bem delimitada, arredondada, localizada anteriormente à fossa mandibular e posteriormente ao arco zigomático.",
+    "name": "Osso zigomático",
+    "description": "Estrutura radiopaca que se estende posteriormente ao processo zigomático da maxila.",
     "baseImage": "./assets/img/base-4.jpg",
     "printImage": "./assets/img/tuberculo.jpg"
   },
@@ -29,36 +29,36 @@
   },
   {
     "number": "05",
-    "name": "Espinha nasal anterior",
-    "description": "Linha radiopaca em foma de “V” na linha média da maxila.",
-    "baseImage": "./assets/img/base-1.jpg",
-    "printImage": "./assets/img/espinhanasal.jpg"
+    "name": "Tubérculo articular",
+    "description": "Estrutura radiopaca que se estende posteriormente ao processo zigomático da maxila.",
+    "baseImage": "./assets/img/base-4.jpg",
+    "printImage": "./assets/img/tuberculo.jpg"
   },
   {
     "number": "06",
-    "name": "Fossas nasais",
-    "description": " Áreas radiolúcidas, relativamente simétricas, limitadas por contornos radiopacos e divididas no centro pelo septo nasal. Localizadas na porção central da radiografia.",
+    "name": "Fossa mandibular",
+    "description": "Concavidade com limites radiopacos, posterior ao tubérculo articular. Local onde se articula a cabeça da mandíbula.",
     "baseImage": "./assets/img/base-1.jpg",
     "printImage": "./assets/img/fossasnasais.jpg"
   },
   {
     "number": "07",
-    "name": "Osso Hióide",
-    "description": "Imagens radiopacas bilaterais situadas abaixo da base da mandíbula.",
+    "name": "Canal infra-orbital",
+    "description": "Estrutura tubular, radiolúcida, limitada lateralmente por paredes radiopacas, próxima ao limite inferior da órbita.",
     "baseImage": "./assets/img/base-1.jpg",
     "printImage": "./assets/img/hioide.jpg"
   },
   {
     "number": "08",
-    "name": "Meato acústico externo",
-    "description": "Área radiolúcida de formato ovóide ou arredondado posterior à ATM.",
+    "name": "Órbita",
+    "description": "Amplas áreas radiolúcidas bilaterais, de contorno bem definido,  localizadas na parte superior da radiografia",
     "baseImage": "./assets/img/base-1.jpg",
     "printImage": "./assets/img/meato.jpg"
   },
   {
     "number": "09",
-    "name": "Fossa ptérigopalatina",
-    "description": "Estrutura radiolúcida em formato de gota invertida localizada distalmente ao contorno posterior do seio maxilar.",
+    "name": "Fossas nasais",
+    "description": "Áreas radiolúcidas, relativamente simétricas, limitadas por contornos radiopacos e divididas no centro pelo septo nasal. Localizadas na porção central da radiografia.",
     "baseImage": "./assets/img/base-1.jpg",
     "printImage": "./assets/img/pterigo.jpg"
   },
@@ -136,6 +136,83 @@
     "number": "20",
     "name": "Base da mandibula",
     "description": "Faixa radiopaca que limita a mandíbula inferiormente.",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/basemandibula.jpg"
+  },
+  {
+    "number": "21",
+    "name": "Vértebras cervicais",
+    "description": "Estruturas retangulares radiopacas distais ao ramo ascendente, bilateralmente.",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/basemandibula.jpg"
+  },
+  {
+    "number": "22",
+    "name": "Orelha (Lóbulo da orelha)",
+    "description": "Estrutura discretamente radiopaca, projetada entre as imagens do ramo da mandíbula e da coluna vertebral",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/basemandibula.jpg"
+  },
+  {
+    "number": "23",
+    "name": "Espaço aéreo (nasofaringe e orofaringe)",
+    "description": "Área radiolúcida localizada acima (nasofaringe) e abaixo (orofaringe) da imagem do palato mole.",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/basemandibula.jpg"
+  },
+  {
+    "number": "24",
+    "name": "Osso hióide",
+    "description": "Imagens radiopacas bilaterais situadas abaixo da base da mandíbula.",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/basemandibula.jpg"
+  },
+  {
+    "number": "25",
+    "name": "Ângulo da mandíbula",
+    "description": "Estrutura radiopaca curvilínea entre o corpo e o ramo da mandíbula",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/basemandibula.jpg"
+  },
+  {
+    "number": "26",
+    "name": "Ramo ascendente da mandíbula",
+    "description": "Estrutura radiopaca de formato retangular limitada superiormente pelo processo condilar e inferiormente pelo ângulo da mandíbula.",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/basemandibula.jpg"
+  },
+  {
+    "number": "27",
+    "name": "Espinha nasal anterior",
+    "description": "Linha radiopaca em foma de “V” na linha média da maxila.",
+    "baseImage": "./assets/img/base-1.jpg",
+    "printImage": "./assets/img/espinhanasal.jpg"
+  },
+  {
+    "number": "28",
+    "name": "Meato acústico externo",
+    "description": "Área radiolúcida de formato ovóide ou arredondado posterior à ATM",
+    "baseImage": "./assets/img/base-1.jpg",
+    "printImage": "./assets/img/meato.jpg"
+  },
+  {
+    "number": "29",
+    "name": "Fossa ptérigopalatina",
+    "description": "Estrutura radiolúcida em formato de gota invertida localizada distalmente ao contorno posterior do seio maxilar.",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/basemandibula.jpg"
+  },
+  {
+    "number": "30",
+    "name": "Fóvea submandibular",
+    "description": "Ampla área radiolúcida na região apical dos molares inferiores.",
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/basemandibula.jpg"
+  },
+  {
+    "number": "31",
+    "name": "Linha oblíqua",
+    "description": "Faixa radiopaca na altura do colo dos molares inferiores.",
     "baseImage": "./assets/img/base-2.jpg",
     "printImage": "./assets/img/basemandibula.jpg"
   }
