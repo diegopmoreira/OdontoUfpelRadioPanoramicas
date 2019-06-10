@@ -143,43 +143,43 @@
     "number": "21",
     "name": "Vértebras cervicais",
     "description": "Estruturas retangulares radiopacas distais ao ramo ascendente, bilateralmente.",
-    "baseImage": "./assets/img/base-2.jpg",
-    "printImage": "./assets/img/basemandibula.jpg"
+    "baseImage": "./assets/img/base-3.jpg",
+    "printImage": "./assets/img/cervicais.jpg"
   },
   {
     "number": "22",
     "name": "Orelha (Lóbulo da orelha)",
     "description": "Estrutura discretamente radiopaca, projetada entre as imagens do ramo da mandíbula e da coluna vertebral",
     "baseImage": "./assets/img/base-2.jpg",
-    "printImage": "./assets/img/basemandibula.jpg"
+    "printImage": "./assets/img/lobuloorelha.jpg"
   },
   {
     "number": "23",
     "name": "Espaço aéreo (nasofaringe e orofaringe)",
     "description": "Área radiolúcida localizada acima (nasofaringe) e abaixo (orofaringe) da imagem do palato mole.",
-    "baseImage": "./assets/img/base-2.jpg",
-    "printImage": "./assets/img/basemandibula.jpg"
+    "baseImage": "./assets/img/base-3.jpg",
+    "printImage": "./assets/img/espaçoaereo.jpg"
   },
   {
     "number": "24",
     "name": "Osso hióide",
     "description": "Imagens radiopacas bilaterais situadas abaixo da base da mandíbula.",
-    "baseImage": "./assets/img/base-2.jpg",
-    "printImage": "./assets/img/basemandibula.jpg"
+    "baseImage": "./assets/img/base-1.jpg",
+    "printImage": "./assets/img/hioide.jpg"
   },
   {
     "number": "25",
     "name": "Ângulo da mandíbula",
     "description": "Estrutura radiopaca curvilínea entre o corpo e o ramo da mandíbula",
-    "baseImage": "./assets/img/base-2.jpg",
-    "printImage": "./assets/img/basemandibula.jpg"
+    "baseImage": "./assets/img/base-6.jpg",
+    "printImage": "./assets/img/angulodamandibula.jpg"
   },
   {
     "number": "26",
     "name": "Ramo ascendente da mandíbula",
     "description": "Estrutura radiopaca de formato retangular limitada superiormente pelo processo condilar e inferiormente pelo ângulo da mandíbula.",
-    "baseImage": "./assets/img/base-2.jpg",
-    "printImage": "./assets/img/basemandibula.jpg"
+    "baseImage": "./assets/img/base-6.jpg",
+    "printImage": "./assets/img/ramoascendente.jpg"
   },
   {
     "number": "27",
@@ -199,21 +199,21 @@
     "number": "29",
     "name": "Fossa ptérigopalatina",
     "description": "Estrutura radiolúcida em formato de gota invertida localizada distalmente ao contorno posterior do seio maxilar.",
-    "baseImage": "./assets/img/base-2.jpg",
-    "printImage": "./assets/img/basemandibula.jpg"
+    "baseImage": "./assets/img/base-6.jpg",
+    "printImage": "./assets/img/pterigolatina.jpg"
   },
   {
     "number": "30",
     "name": "Fóvea submandibular",
     "description": "Ampla área radiolúcida na região apical dos molares inferiores.",
-    "baseImage": "./assets/img/base-2.jpg",
-    "printImage": "./assets/img/basemandibula.jpg"
+    "baseImage": "./assets/img/base-6.jpg",
+    "printImage": "./assets/img/foveasubmandibular.jpg"
   },
   {
     "number": "31",
     "name": "Linha oblíqua",
     "description": "Faixa radiopaca na altura do colo dos molares inferiores.",
-    "baseImage": "./assets/img/base-2.jpg",
-    "printImage": "./assets/img/basemandibula.jpg"
+    "baseImage": "./assets/img/base-3.jpg",
+    "printImage": "./assets/img/linhaobliqua.jpg"
   }
 ]

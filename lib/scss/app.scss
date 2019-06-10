@@ -144,6 +144,7 @@ html {
         }
         #stroke {
           background: $white;
+          margin: 20px;
           @media (min-width: 800px) {
             width: 60px;
           }
@@ -357,7 +358,7 @@ html {
           }
           .prev-icon,
           .next-icon {
-            font-size: 3em;
+            font-size: 2em;
             color: $primary;
             @media (min-width: 800px) {
               transform: rotate(90deg);
