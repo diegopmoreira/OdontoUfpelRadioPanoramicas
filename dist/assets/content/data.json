@@ -10,8 +10,8 @@
     "number": "02",
     "name": "Processo zigomático da maxila",
     "description": "Densa faixa radiopaca em forma de anzol projetada no seio maxilar acima dos ápices dos molares superiores.",
-    "baseImage": "./assets/img/base-1.jpg",
-    "printImage": "./assets/img/meato.jpg"
+    "baseImage": "./assets/img/base-4.jpg",
+    "printImage": "./assets/img/processozigomatico.jpg"
   },
   {
     "number": "03",
@@ -45,8 +45,8 @@
     "number": "07",
     "name": "Canal infra-orbital",
     "description": "Estrutura tubular, radiolúcida, limitada lateralmente por paredes radiopacas, próxima ao limite inferior da órbita.",
-    "baseImage": "./assets/img/base-1.jpg",
-    "printImage": "./assets/img/hioide.jpg"
+    "baseImage": "./assets/img/base-2.jpg",
+    "printImage": "./assets/img/infraorbitario.jpg"
   },
   {
     "number": "08",
@@ -60,7 +60,7 @@
     "name": "Fossas nasais",
     "description": "Áreas radiolúcidas, relativamente simétricas, limitadas por contornos radiopacos e divididas no centro pelo septo nasal. Localizadas na porção central da radiografia.",
     "baseImage": "./assets/img/base-1.jpg",
-    "printImage": "./assets/img/pterigo.jpg"
+    "printImage": "./assets/img/fossasnasais.jpg"
   },
   {
     "number": "10",
@@ -157,7 +157,7 @@
     "number": "23",
     "name": "Espaço aéreo (nasofaringe e orofaringe)",
     "description": "Área radiolúcida localizada acima (nasofaringe) e abaixo (orofaringe) da imagem do palato mole.",
-    "baseImage": "./assets/img/base-3.jpg",
+    "baseImage": "./assets/img/base-7.jpg",
     "printImage": "./assets/img/espaçoaereo.jpg"
   },
   {
