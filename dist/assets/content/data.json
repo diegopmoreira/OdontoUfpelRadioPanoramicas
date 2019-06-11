@@ -17,7 +17,7 @@
     "number": "03",
     "name": "Osso zigomático",
     "description": "Estrutura radiopaca que se estende posteriormente ao processo zigomático da maxila.",
-    "baseImage": "./assets/img/base-4.jpg",
+    "baseImage": "./assets/img/base-5.jpg",
     "printImage": "./assets/img/tuberculo.jpg"
   },
   {
@@ -38,8 +38,8 @@
     "number": "06",
     "name": "Fossa mandibular",
     "description": "Concavidade com limites radiopacos, posterior ao tubérculo articular. Local onde se articula a cabeça da mandíbula.",
-    "baseImage": "./assets/img/base-1.jpg",
-    "printImage": "./assets/img/fossasnasais.jpg"
+    "baseImage": "./assets/img/base-4.jpg",
+    "printImage": "./assets/img/fossamandibular.jpg"
   },
   {
     "number": "07",
@@ -52,8 +52,8 @@
     "number": "08",
     "name": "Órbita",
     "description": "Amplas áreas radiolúcidas bilaterais, de contorno bem definido,  localizadas na parte superior da radiografia",
-    "baseImage": "./assets/img/base-1.jpg",
-    "printImage": "./assets/img/meato.jpg"
+    "baseImage": "./assets/img/base-5.jpg",
+    "printImage": "./assets/img/orbita.jpg"
   },
   {
     "number": "09",
