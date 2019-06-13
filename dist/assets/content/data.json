@@ -18,7 +18,7 @@
     "name": "Osso zigomático",
     "description": "Estrutura radiopaca que se estende posteriormente ao processo zigomático da maxila.",
     "baseImage": "./assets/img/base-5.jpg",
-    "printImage": "./assets/img/tuberculo.jpg"
+    "printImage": "./assets/img/ossozigomatico.jpg"
   },
   {
     "number": "04",
@@ -177,7 +177,7 @@
   {
     "number": "26",
     "name": "Ramo ascendente da mandíbula",
-    "description": "Estrutura radiopaca de formato retangular limitada superiormente pelo processo condilar e inferiormente pelo ângulo da mandíbula.",
+    "description": "Estrutura radiopaca limitada superiormente pela cabeça da manbíbula e processo coronóide e inferiormente processo condilar e inferiormente pelo ângulo da mandíbula.",
     "baseImage": "./assets/img/base-6.jpg",
     "printImage": "./assets/img/ramoascendente.jpg"
   },
