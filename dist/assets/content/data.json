@@ -114,7 +114,7 @@
   {
     "number": "17",
     "name": "Processo coronóide",
-    "description": "Concavidade no ramo ascendente da mandíbula, entre a cabeça da mandíbula e o processo coronóide.",
+    "description": "Estrutura radiopaca, triangular, bem delimitada, localizada na porção anterior do ramo ascendente da mandíbula. Pode ser visualizada sobreposta ao túber da maxila.",
     "baseImage": "./assets/img/base-7.jpg",
     "printImage": "./assets/img/coronoide.jpg"
   },
@@ -177,7 +177,7 @@
   {
     "number": "26",
     "name": "Ramo ascendente da mandíbula",
-    "description": "Estrutura radiopaca limitada superiormente pela cabeça da manbíbula e processo coronóide e inferiormente processo condilar e inferiormente pelo ângulo da mandíbula.",
+    "description": "Estrutura radiopaca limitada superiormente pela cabeça da manbíbula e processo coronóide e inferiormente pelo ângulo da mandíbula.",
     "baseImage": "./assets/img/base-6.jpg",
     "printImage": "./assets/img/ramoascendente.jpg"
   },
