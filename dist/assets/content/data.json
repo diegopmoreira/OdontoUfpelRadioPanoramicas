@@ -30,7 +30,7 @@
   {
     "number": "05",
     "name": "Tubérculo articular",
-    "description": "Estrutura radiopaca que se estende posteriormente ao processo zigomático da maxila.",
+    "description": "Estrutura radiopaca que se estende posteriormente ao arco zigomático",
     "baseImage": "./assets/img/base-4.jpg",
     "printImage": "./assets/img/tuberculo.jpg"
   },
